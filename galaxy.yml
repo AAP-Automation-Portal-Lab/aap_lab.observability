@@ -1,0 +1,11 @@
+namespace: northwind
+name: cloud
+version: 1.0.0
+readme: README.md
+authors:
+  - Northwind IT Platform Team <automation@northwind.example>
+description: Northwind cloud operations helpers (browse in portal Collections)
+license_file: LICENSE
+tags: [northwind, aap, lab]
+dependencies: {}
+repository: https://github.com/AAP-Automation-Portal-Lab/northwind.cloud
