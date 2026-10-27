@@ -1,0 +1,4 @@
+---
+- name: Northwind cloud demo banner
+  ansible.builtin.debug:
+    msg: "northwind.cloud — Northwind internal collection loaded"
