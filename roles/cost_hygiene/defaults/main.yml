@@ -1,6 +1,6 @@
 ---
-northwind_required_tag_keys:
-  - nw:owner
-  - nw:cost-center
-  - nw:environment
-northwind_cloud_region: us-east-1
+parasol_required_tag_keys:
+  - parasol:owner
+  - parasol:cost-center
+  - parasol:environment
+parasol_cloud_region: us-east-1
