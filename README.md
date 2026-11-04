@@ -1,6 +1,6 @@
-# northwind.cloud
+# parasol.cloud
 
-Collection maintained by **Northwind Cloud Operations**.
+Collection maintained by **Parasol Cloud Operations**.
 
 Enforces tagging policy and lightweight cost-hygiene checks on workloads
 provisioned through the Self-Service Automation Portal (AWS / Azure catalogs).
@@ -9,12 +9,12 @@ provisioned through the Self-Service Automation Portal (AWS / Azure catalogs).
 
 | Role | Purpose |
 |------|---------|
-| `northwind.cloud.instance_tagging` | Ensure required Northwind tags on targeted instances |
-| `northwind.cloud.cost_hygiene` | Report instances missing owner/cost-center tags |
+| `parasol.cloud.instance_tagging` | Ensure required Parasol tags on targeted instances |
+| `parasol.cloud.cost_hygiene` | Report instances missing owner/cost-center tags |
 
 ## Required tags
 
-- `nw:owner`
-- `nw:cost-center`
-- `nw:environment`
-- `nw:application`
+- `parasol:owner`
+- `parasol:cost-center`
+- `parasol:environment`
+- `parasol:application`
