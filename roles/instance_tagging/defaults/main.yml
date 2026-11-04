@@ -1,8 +1,8 @@
 ---
-northwind_cloud_tags:
-  nw:owner: platform-automation@northwind.example
-  nw:cost-center: CC-1200
-  nw:environment: lab
-  nw:application: self-service-portal
-northwind_cloud_region: us-east-1
-northwind_cloud_instance_ids: []
+parasol_cloud_tags:
+  parasol:owner: platform-automation@parasol.example
+  parasol:cost-center: CC-1200
+  parasol:environment: lab
+  parasol:application: self-service-portal
+parasol_cloud_region: us-east-1
+parasol_cloud_instance_ids: []
