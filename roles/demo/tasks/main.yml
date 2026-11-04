@@ -1,4 +1,4 @@
 ---
-- name: Northwind cloud demo banner
+- name: Parasol cloud demo banner
   ansible.builtin.debug:
-    msg: "northwind.cloud — Northwind internal collection loaded"
+    msg: "parasol.cloud — Parasol internal collection loaded"
