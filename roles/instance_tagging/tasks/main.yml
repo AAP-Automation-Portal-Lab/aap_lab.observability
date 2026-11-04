@@ -2,15 +2,15 @@
 - name: Require at least one instance id
   ansible.builtin.assert:
     that:
-      - northwind_cloud_instance_ids | length > 0
-    fail_msg: Set northwind_cloud_instance_ids to the EC2 instance id list to tag.
+      - parasol_cloud_instance_ids | length > 0
+    fail_msg: Set parasol_cloud_instance_ids to the EC2 instance id list to tag.
 
-- name: Apply Northwind mandatory tags to EC2 instances
+- name: Apply Parasol mandatory tags to EC2 instances
   amazon.aws.ec2_tag:
-    region: "{{ northwind_cloud_region }}"
+    region: "{{ parasol_cloud_region }}"
     resource: "{{ item }}"
     state: present
-    tags: "{{ northwind_cloud_tags }}"
-  loop: "{{ northwind_cloud_instance_ids }}"
+    tags: "{{ parasol_cloud_tags }}"
+  loop: "{{ parasol_cloud_instance_ids }}"
   loop_control:
     label: "{{ item }}"
