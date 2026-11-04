@@ -1,7 +1,7 @@
 ---
-- name: Tag instances provisioned from the Northwind portal
+- name: Tag instances provisioned from the Parasol portal
   hosts: localhost
   connection: local
   gather_facts: false
   roles:
-    - role: northwind.cloud.instance_tagging
+    - role: parasol.cloud.instance_tagging
